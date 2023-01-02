@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Ranchers&display=swap');
+
+
+
+body {
+    width: 90%;
+    
+    
+}
+/* cabezal */
+
+main{ 
+    background-color: aquamarine;
+    margin-left: 60px;
+}
+
+.contenerdor {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+  
+h1 {
+    width: 25%;
+    margin-left: 35px;
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: 'Fugaz One', cursive;
+    color: blue;
+    
+   }
+
+nav{
+    width: 50%;
+    height: 20%;
+    margin-top: 2%;
+    background-color: red;
+    display: flex;    
+    justify-content: center;
+
+   
+      
+}
+.boton {
+    width: auto;
+    font-family: 'Ranchers', cursive;
+    font-size: 25px;
+    color: black;
+    display: inline;
+    margin: auto;
+    text-decoration: none;
+
+
+}
+.redes {
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border: 0 solid black;
+    color: black;
+}
+
+/* primera seccion */
+
+.sector1 {
+    padding-top: 30px;
+    height: 300px;
+    background-color: coral;
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.presentacion {
+    margin-left: 20px; 
+    margin-top: 25px;   
+}
+
+h2{
+    margin-top: -15px;
+    font-size: 40px;
+    font-family: 'Ranchers', cursive;
+    box-shadow: blue;
+
+}
+h3{
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: 'Ranchers', cursive;
+}
+
+p {
+    margin-top: -20px;
+    font-size: 18px;
+    font-family: 'Ranchers', cursive;
+
+}
+.porfolio {
+    width: 120px;
+    height: 30px;
+    border: 0 solid black;
+    color: white;
+    background-color: black;
+    font-size: 14px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.porfolio:hover {
+    background-color: rgb(109, 94, 94);
+}
+.contacto {
+    border: none;
+    color: black;
+    background-color: coral;
+    font-size: 16px;
+    text-decoration-line: underline;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.contacto:hover {
+    background-color: rgb(109, 94, 94);
+}
+
+.fotopresentacion {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 10px 10px silver ;
+}
+
