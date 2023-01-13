@@ -49,7 +49,7 @@ nav{
 }
 .boton {
     width: auto;
-    font-family: 'Ranchers', cursive;
+    font-family: 'Times New Roman', Times, serif
     font-size: 18px;
     color: black;
     display: inline;
@@ -66,7 +66,7 @@ nav{
     color: black;
 }
 
-/* primera seccion */
+/* hero */
 
 .hero {
     padding-top: 30px;
@@ -86,20 +86,20 @@ nav{
 h2{
     margin-top: 10;
     font-size: 40px;
-    font-family: 'Ranchers', cursive;
+    font-family: 'Times New Roman', Times, serif
     box-shadow: blue;
 
 }
 h3{
     margin-top: 40px;
-    font-size: 20px;
-    font-family: 'Ranchers', cursive;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 p {
     margin-top: 5px;
     font-size: 18px;
-    font-family: 'Ranchers', cursive;
+    font-family: 'Times New Roman', Times, serif
 
 }
 .porfolio {
@@ -138,13 +138,14 @@ p {
     box-shadow: 0 10px 10px silver ;
 }
 
-/* segunda seccion */
+/* primera seccion */
 
-.sector2 {
+.seccion1 {
     padding-top: 30px;
-    height: 400px;
+    height: 300px;
     background-color: rgb(80, 255, 103);
-    margin-left: 60px;
+    margin-left: 110px;
+    margin-right: 50px;
     padding-right: 50px;
     display: flex;
     justify-content: space-evenly;
@@ -152,42 +153,151 @@ p {
 }
 
 .about {
-    margin-left: 20px; 
+    width: 80px;
+    margin-left: 450px; 
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: red;
+       
 }
 .conocer {
-    margin-left: 20px; 
+    margin-left: 350px; 
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 .soy {
-    margin-left: 20px; 
+    margin-left: 75px; 
+    margin-top: 30px;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
+u {
+    text-decoration-color: rgb(131, 23, 23);
+}
+
 .resumen {
-    margin-left: 20px; 
+    margin-left: 75px; 
     margin-top: 25px;
-    margin-right: 120px;
+    margin-right: 95px;
     padding-right: 10px;
     font-size: 15px;
+    text-align: justify;
     font-family: Arial, Helvetica, sans-serif;  
     display: block;
 
 }
 
+.experiencia {
+    text-align: center;
+       
+}
+
 .exp {
-    margin-top: 20px;
-    margin-right: 30px;
+    margin-top: 120px;
+    margin-right: 120px;
+    background-color: aquamarine;
+    border-radius: 50%;   
     font-size: 80px;
     font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    
 }
 
 .años {
+   margin-right: 30px;
+   margin-left: -30px;
+   text-align: left;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+/* segunda seccion */
+
+.seccion2 {
+    height: 70px;
+    background-color: rgb(80, 255, 103);
+    margin-left: 110px;
+    margin-right: 50px;
+        
+}
+
+.datosbasicos {
+    margin-left: 95px;
+    margin-right: 95px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.datos1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+}
+
+/* tercera seccion */
+
+.seccion3 {
+    padding-top: 30px;
+    height: 300px;
+    background-color: rgb(147, 80, 255);
+    margin-left: 110px;
+    margin-right: 50px;
+    padding-right: 50px;
+ }
+
+.ayuda {
+    width: 100px;
+    margin-left: 490px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(0, 255, 13);
+}
+.siguenteproyecto {
+    margin-top: 10px;
+    margin-left: 45px; 
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+.imgproyect1 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.proyect1 {
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.datos2 {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 35px;
+}
+
+
+.imgproyect2 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.proyect2 {
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-evenly;
 }
