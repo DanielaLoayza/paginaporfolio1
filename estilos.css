@@ -50,14 +50,13 @@ nav{
 .boton {
     width: auto;
     font-family: 'Times New Roman', Times, serif
-    font-size: 18px;
-    color: black;
-    display: inline;
+    font-size: 19px;
+    color:black;
+    display:inline;
     margin: auto;
-    text-decoration: none;
-
-
+    text-decoration:none;
 }
+
 .redes {
     font-size: 30px;
     margin-left: 30px;
@@ -87,9 +86,8 @@ h2{
     margin-top: 10;
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif
-    box-shadow: blue;
-
 }
+
 h3{
     margin-top: 40px;
     font-size: 18px;
@@ -163,7 +161,7 @@ p {
 }
 .conocer {
     margin-left: 350px; 
-    font-size: 15px;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -245,7 +243,7 @@ u {
 
 .seccion3 {
     padding-top: 30px;
-    height: 300px;
+    height: 350px;
     background-color: rgb(147, 80, 255);
     margin-left: 110px;
     margin-right: 50px;
@@ -271,12 +269,14 @@ u {
 
 .imgproyect1 {
     margin-top: 40px;
+    margin-left: 35px;
+    margin-right: 20px;
     display: flex;
     justify-content: space-around;
 }
 .proyect1 {
     margin-top: 5px;
-    margin-left: 50px;
+    margin-left: 60px;
     margin-right: 20px;
     display: flex;
     justify-content: space-evenly;
@@ -291,13 +291,194 @@ u {
 
 .imgproyect2 {
     margin-top: 40px;
+    margin-left: 35px;
+    margin-right: 20px;
     display: flex;
     justify-content: space-around;
 }
 .proyect2 {
     margin-top: 5px;
-    margin-left: 50px;
+    margin-left: 60px;
     margin-right: 20px;
     display: flex;
     justify-content: space-evenly;
+}
+
+/* cuarta seccion */
+.seccion4 {
+    padding-top: 30px;
+    height: 650px;
+    background-color: rgb(255, 243, 80);
+    margin-left: 110px;
+    margin-right: 50px;
+    padding-right: 50px;
+}
+.resume1 {
+    width: 100px;
+    margin-left: 490px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(216, 35, 207);
+}
+.resume2 {
+    margin-top: 10px;
+    margin-left: 45px; 
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+.my_ex{
+    margin-left: 40px;
+    margin-right: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.divicion {
+    margin-top: 20px;
+    margin-left: 80px;
+   text-align: justify;
+   font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.divicion1 {
+    padding-left: 8px;
+    border-left: 2px solid rgb(0, 255, 13);
+    
+}
+
+.resumen3  { 
+    padding-bottom: 6px;
+    font-size: 15px;
+    border-bottom: 3px solid rgb(199, 174, 174);
+
+}
+
+.divicion2 {
+    padding-left: 8px;
+    border-left: 2px solid rgb(0, 255, 13);
+    
+}
+.resumen4  {
+    padding-bottom: 6px;
+    font-size: 15px;
+    border-bottom: 3px solid rgb(199, 174, 174);
+}
+
+/* seccion barras */
+.habilidades {
+    margin-left: 190px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.barras {
+    margin-top: 15px;
+    margin-left: -50px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.barras1 {
+    margin-left: 150px;
+
+}
+
+.por99 {
+    margin-left: 190px;
+
+}
+.conten99 {
+    width: 300px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+.barra99 {
+    width: 99%;
+    height: 10px;
+    background-color: aqua;
+   
+}
+
+.por90 {
+    margin-left: 165px;
+
+}
+.conten90 {
+    width: 300px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+.barra90 {
+    width: 90%;
+    height: 10px;
+    background-color: aqua;
+   
+}
+
+.barras2 {
+    margin-right: 20px;
+
+}
+.por70 {
+    margin-left: 200px;
+
+}
+.conten70 {
+    width: 300px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+.barra70 {
+    width: 70%;
+    height: 10px;
+    background-color: aqua;
+   
+}
+
+.por55 {
+    margin-left: 190px;
+
+}
+.conten55 {
+    width: 300px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+.barra55 {
+    width: 50%;
+    height: 10px;
+    background-color: aqua;
+   
+}
+
+.downcv {
+    width: 120px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 50%;
+    background-color: white;
+    border: 1px solid black;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.downcv:hover {
+    background-color: rgb(109, 94, 94);
 }
