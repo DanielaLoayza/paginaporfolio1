@@ -6,33 +6,35 @@
 }
 
 body {
-    width: 90%;
-    margin-left: 30px;
-    
+    width: 100%;
+       
 }
 /* cabezal */
 
-header{ 
-    background-color: aquamarine;
-    margin-left: 110px;
+header{   
+    width: 100%;     
     margin-right: 50px;
+    position: fixed;
+    background-color: white;
+    
 }
 
 .contenerdor {
-    margin: auto;
-    width: 100%;
+    margin: 0;
     display: flex;
     align-content: center;
     align-items: center;
+    
 }
   
 h1 {
     width: 25%;
     margin-left: 35px;
     margin-top: 20px;
+    padding-left: 20px;
     font-size: 40px;
     font-family: 'Fugaz One', cursive;
-    color: blue;
+    color: black;
     
    }
 
@@ -40,16 +42,17 @@ nav{
     width: 50%;
     height: 20%;
     margin-top: 2%;
-    background-color: red;
+    padding-right: 40px;
     display: flex;    
     justify-content: center;
 
    
       
 }
+
 .boton {
     width: auto;
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
     font-size: 19px;
     color:black;
     display:inline;
@@ -66,20 +69,22 @@ nav{
 }
 
 /* hero */
+main {
+    margin-top: 0;
+}
 
 .hero {
-    padding-top: 30px;
-    height: 300px;
-    background-color: coral;
-    margin-left: 60px;
+    
+    padding-top: 150px;
+    height: 350px;
+    background-color: #EEE8AA;   
     display: flex;
     justify-content: space-evenly;
 
 }
 
-.presentacion {
-    margin-left: 20px; 
-    margin-top: 25px;   
+.presentacion {    
+    margin-top: 35px;   
 }
 
 h2{
@@ -115,9 +120,11 @@ p {
     background-color: rgb(109, 94, 94);
 }
 .contacto {
+    width: 120px;
+    height: 30px;
     border: none;
     color: black;
-    background-color: coral;
+    background-color: #EEE8AA;
     font-size: 16px;
     text-decoration-line: underline;
     transition: all 0.5s;
@@ -125,7 +132,7 @@ p {
 }
 
 .contacto:hover {
-    background-color: rgb(109, 94, 94);
+    background-color: #6d5e5e;
 }
 
 .fotopresentacion {
@@ -140,8 +147,7 @@ p {
 
 .seccion1 {
     padding-top: 30px;
-    height: 300px;
-    background-color: rgb(80, 255, 103);
+    height: 350px;    
     margin-left: 110px;
     margin-right: 50px;
     padding-right: 50px;
@@ -151,17 +157,17 @@ p {
 }
 
 .about {
-    width: 80px;
+    width: 100px;
     margin-left: 450px; 
-    font-size: 15px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background-color: red;
+    background-color: #EEE8AA;
        
 }
 .conocer {
-    margin-left: 350px; 
-    font-size: 18px;
+    margin-left: 240px; 
+    font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -175,7 +181,7 @@ p {
 }
 
 u {
-    text-decoration-color: rgb(131, 23, 23);
+    text-decoration-color: #EEE8AA;
 }
 
 .resumen {
@@ -198,11 +204,11 @@ u {
 .exp {
     margin-top: 120px;
     margin-right: 120px;
-    background-color: aquamarine;
+    background-color: #EEE8AA;
     border-radius: 50%;   
     font-size: 80px;
     font-family: Arial, Helvetica, sans-serif;
-    color: blue;
+    color: black;
     
 }
 
@@ -214,12 +220,11 @@ u {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* segunda seccion */
+/* datos*/
 
 .seccion2 {
     height: 70px;
-    background-color: rgb(80, 255, 103);
-    margin-left: 110px;
+     margin-left: 110px;
     margin-right: 50px;
         
 }
@@ -239,12 +244,12 @@ u {
 
 }
 
-/* tercera seccion */
+/* segunda seccion */
 
 .seccion3 {
-    padding-top: 30px;
-    height: 350px;
-    background-color: rgb(147, 80, 255);
+    margin-top: 50px;
+    padding-top: 60px;
+    height: 400px;
     margin-left: 110px;
     margin-right: 50px;
     padding-right: 50px;
@@ -252,15 +257,15 @@ u {
 
 .ayuda {
     width: 100px;
-    margin-left: 490px;
-    font-size: 18px;
+    margin-left: 520px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background-color: rgb(0, 255, 13);
+    background-color: #EEE8AA;
 }
 .siguenteproyecto {
     margin-top: 10px;
-    margin-left: 45px; 
+    margin-left: 25px; 
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -273,6 +278,7 @@ u {
     margin-right: 20px;
     display: flex;
     justify-content: space-around;
+    color: #EEE8AA;
 }
 .proyect1 {
     margin-top: 5px;
@@ -295,10 +301,11 @@ u {
     margin-right: 20px;
     display: flex;
     justify-content: space-around;
+    color: #EEE8AA;
 }
 .proyect2 {
     margin-top: 5px;
-    margin-left: 60px;
+    margin-left: 70px;
     margin-right: 20px;
     display: flex;
     justify-content: space-evenly;
@@ -307,20 +314,20 @@ u {
 /* cuarta seccion */
 .seccion4 {
     padding-top: 30px;
-    height: 650px;
-    background-color: rgb(255, 243, 80);
+    height: 750px;
     margin-left: 110px;
     margin-right: 50px;
-    padding-right: 50px;
+    padding-right: 70px;
 }
 .resume1 {
     width: 100px;
-    margin-left: 490px;
-    font-size: 18px;
+    margin-left: 520px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background-color: rgb(216, 35, 207);
+    background-color: #EEE8AA
 }
+
 .resume2 {
     margin-top: 10px;
     margin-left: 45px; 
@@ -347,26 +354,26 @@ u {
 }
 .divicion1 {
     padding-left: 8px;
-    border-left: 2px solid rgb(0, 255, 13);
+    border-left: 2px solid #EEE8AA;
     
 }
 
 .resumen3  { 
     padding-bottom: 6px;
     font-size: 15px;
-    border-bottom: 3px solid rgb(199, 174, 174);
+    border-bottom: 3px solid #6d5e5e;
 
 }
 
 .divicion2 {
     padding-left: 8px;
-    border-left: 2px solid rgb(0, 255, 13);
+    border-left: 2px solid #EEE8AA;
     
 }
 .resumen4  {
     padding-bottom: 6px;
     font-size: 15px;
-    border-bottom: 3px solid rgb(199, 174, 174);
+    border-bottom: 3px solid #6d5e5e;
 }
 
 /* seccion barras */
@@ -395,7 +402,7 @@ u {
 .conten99 {
     width: 300px;
     height: 10px;
-    background-color: blue;
+    background-color: #6d5e5e;
     border-radius: 5px;
     margin-bottom: 20px;
     
@@ -403,7 +410,7 @@ u {
 .barra99 {
     width: 99%;
     height: 10px;
-    background-color: aqua;
+    background-color: #EEE8AA;
    
 }
 
@@ -414,7 +421,7 @@ u {
 .conten90 {
     width: 300px;
     height: 10px;
-    background-color: blue;
+    background-color: #6d5e5e;
     border-radius: 5px;
     margin-bottom: 20px;
     
@@ -422,7 +429,7 @@ u {
 .barra90 {
     width: 90%;
     height: 10px;
-    background-color: aqua;
+    background-color: #EEE8AA;
    
 }
 
@@ -437,7 +444,7 @@ u {
 .conten70 {
     width: 300px;
     height: 10px;
-    background-color: blue;
+    background-color: #6d5e5e;
     border-radius: 5px;
     margin-bottom: 20px;
     
@@ -445,7 +452,7 @@ u {
 .barra70 {
     width: 70%;
     height: 10px;
-    background-color: aqua;
+    background-color: #EEE8AA;
    
 }
 
@@ -456,7 +463,7 @@ u {
 .conten55 {
     width: 300px;
     height: 10px;
-    background-color: blue;
+    background-color: #6d5e5e;
     border-radius: 5px;
     margin-bottom: 20px;
     
@@ -464,7 +471,7 @@ u {
 .barra55 {
     width: 50%;
     height: 10px;
-    background-color: aqua;
+    background-color: #EEE8AA;
    
 }
 
@@ -472,7 +479,8 @@ u {
     width: 120px;
     height: 30px;
     margin-top: 20px;
-    margin-left: 50%;
+    margin-left: 48%;
+    color: black;
     background-color: white;
     border: 1px solid black;
     transition: all 0.5s;
@@ -482,3 +490,205 @@ u {
 .downcv:hover {
     background-color: rgb(109, 94, 94);
 }
+
+/* quinta seccion */
+
+.seccion5 {
+    padding-top: 30px;
+    width: 100%;
+    height: 850px;
+    background-color: #ffeded;
+   padding-right: 50px;
+    
+}
+
+.porfolio2 {
+    width: 90px;
+    margin-left: 48%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #EEE8AA;
+}
+.porfolio3 {
+    margin-top: 10px;
+    margin-left: 50px; 
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.boton3 {
+    width: 100%;
+    display: flex;
+    align-content:space-between;
+}
+
+.boton4 {
+    margin-left: 25%;
+    
+}
+
+.boton7 {
+    width: 100%;
+    height: 20%;
+   padding-top: 2%;
+   padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    transition: all 0.5s;
+    cursor: pointer;
+ 
+}
+
+.boton7:hover {
+    text-decoration: underline;
+}
+
+/* seccion imagenes */
+
+.trabajos1 {
+    margin-top: 20px;
+    width: 920px;
+    height: 920px;
+    padding-top: 30px;
+    padding-left: 220px;
+   
+ }
+
+.img1 {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+.img2 {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+.img3 {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.img4 {
+    width: 300px;
+    height: 300px;
+    margin-right: 5px;
+}
+.img5 {
+    width: 300px;
+    height: 300px;
+}
+.img6 {
+    width: 300px;
+    height: 300px;
+    margin-left: 5px;
+}
+
+
+/* ultima seccion */
+
+.ultima {
+    width: 100%;
+    padding-top: 30px;
+    height: 500px;    
+   background-color: #EEE8AA;
+   
+}
+
+.contactos1 {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.contactos3 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;       
+
+}
+
+p {
+    margin-bottom: 30px;
+}
+.liv{ 
+    margin-bottom: 5px;
+}
+
+.call {
+    margin-bottom: 5px;
+}
+
+.redes1{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 0 solid black;
+    color: black;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+
+}
+
+.formulario1 {
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+label {
+    font-size: 15px;
+    padding: 10px 0;
+    
+}
+
+input {
+    border: none;
+    background-color: #EEE8AA;
+    border-bottom: 1px solid #6d5e5e;
+    width: 350px;
+    margin-bottom: 10px;
+
+}
+
+textarea {
+    height: 80px ;
+    border: none;
+    background-color: #EEE8AA;
+    border-bottom: 1px solid #6d5e5e;
+    width: 350px;
+
+}
+
+button {
+    width: 80px;
+    height: 20px;
+    margin-top: 5px;
+    font-size: 11px;
+    border: 0 solid black;
+    color: white;
+    background-color: black;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(109, 94, 94);
+
+}
+
+
+
+
