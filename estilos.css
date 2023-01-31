@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 
 * {
     margin: 0;
@@ -45,9 +47,7 @@ nav{
     padding-right: 40px;
     display: flex;    
     justify-content: center;
-
-   
-      
+     
 }
 
 .boton {
@@ -120,8 +120,9 @@ p {
     background-color: rgb(109, 94, 94);
 }
 .contacto {
-    width: 120px;
+    width: 130px;
     height: 30px;
+    padding-left: 5px;
     border: none;
     color: black;
     background-color: #EEE8AA;
@@ -133,6 +134,9 @@ p {
 
 .contacto:hover {
     background-color: #6d5e5e;
+}
+.flecha {
+    padding-left: 8px;
 }
 
 .fotopresentacion {
@@ -596,7 +600,7 @@ u {
 .ultima {
     width: 100%;
     padding-top: 30px;
-    height: 500px;    
+    height: auto;    
    background-color: #EEE8AA;
    
 }
@@ -688,7 +692,265 @@ button:hover {
     background-color: rgb(109, 94, 94);
 
 }
+/* firma */
+
+.firma {
+    padding: 20px 600px ;
+}
+.firma1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 14px;
+    text-shadow: 0.1em 0.1em 0.2em tomato
+}
+
+@media all and (min-width:600px) and (max-width:1023px) {
+body  {
+        width: 765px;
+}
+
+    /* cabezal */
+    
+header{   
+        width: 765px;     
+        margin-right: 10px;
+}
+    
+     
+h1 {
+    width: 20%;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 25px;
+   }
+
+.boton {
+    width: auto;
+    font-size: 12px;
+       
+}
+
+.redes {
+    font-size: 18px;
+}
+
+/* hero */
+
+.hero {    
+    padding-top: 120px;
+   
+}
+
+.porfolio {
+    margin-top: 5px;
+    
+}
+/* primera seccion */
+
+.seccion1 {
+    margin-left: 50px;
+}
+
+.about {
+    margin-left: 350px; 
+    font-size: 18px;
+           
+}
+.conocer {
+    width: 200px;
+    margin-top: -10px;
+    margin-left: 300px;
+}
+
+.exp {
+    margin-top: 180px;
+ 
+}
 
 
+/* datos*/
+
+.seccion2 {
+    height: 15px;
+    padding-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+   
+        
+}
+
+.datosbasicos {
+    margin-left: 50px;
+    margin-right: 50px;    
+}
+
+/* segunda seccion */
+
+.seccion3 {
+    margin-top: 30px;   
+    height: 400px;
+    margin-left: 0;
+    margin-right: 30px;
+    padding-right: 0px;
+ }
 
 
+.ayuda {
+    margin-left: 350px;
+    font-size: 18px;
+}
+
+.siguenteproyecto {
+    margin-left: 40px;
+    font-size: 22px;
+
+}
+
+.proyect1, .proyect2 {
+    margin-left: 30px;
+}
+
+/* <!-- cuarta seccion --> */ 
+
+.seccion4 {
+    padding-top: 15px;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 30px;
+}
+.resume1 {
+    margin-left: 45%;
+}    
+    
+.my_ex{
+    margin-left: 5px;
+    margin-right: 90px;
+}
+
+.divicion {
+     margin-left: 60px;
+       
+}
+
+/* seccion barras */
+
+.habilidades {
+    margin-left: 85px;
+    
+}
+
+.barras {
+    margin-top: 15px;
+        
+}
+
+.barras1 {
+    margin-left: 120px;
+
+}
+
+
+.downcv {
+    margin-left: 45%;
+    margin-bottom: 20px;
+}
+
+/* quinta seccion */
+
+.seccion5 {
+    width: auto;
+    height: 650px;
+   padding-right: 0px;
+    
+}
+
+.porfolio2 {
+    margin-left: 45%;
+    
+}
+.porfolio3 {
+    margin-top: 10px;
+    
+}
+
+.boton4 {
+    padding-left: 40px;
+    
+    
+}
+
+.boton7 {
+    width: 300px;
+    padding-left: 0px;
+    font-size: 12px;
+     
+}
+
+/* seccion imagenes */
+
+.trabajos1 {
+    margin-top: 20px;
+    width: 620px;
+    height: 620px;    
+    padding-left: 90px;
+   
+ }
+
+.img1 {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+.img2 {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.img3 {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.img4 {
+    width: 200px;
+    height: 200px;
+    margin-right: 5px;
+}
+.img5 {
+    width: 200px;
+    height: 200px;
+}
+.img6 {
+    width: 200px;
+    height: 200px;
+    margin-left: 5px;
+}
+
+/* ultima seccion */
+
+.ultima {
+    width: auto;
+    padding-top: 15px;
+    height: auto;    
+}
+
+.contactos1 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+p {
+    font-size: 15px;
+
+}
+/* firma */
+
+.firma {
+    padding: 20px 280px ;
+}
+
+
+}
