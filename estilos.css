@@ -638,6 +638,7 @@ u {
 
 .ultima {
     padding-top: 30px;
+    padding-bottom: 30px;
     background-color: #EEE8AA;
    
 }
@@ -646,7 +647,7 @@ u {
     margin-left: 100px;
     margin-right: 100px;
     padding-left: 150px;
-    padding-right: 180px;
+    padding-right: 170px;
     display: flex;
     justify-content: space-evenly;
 
@@ -735,17 +736,7 @@ button:hover {
     background-color: rgb(109, 94, 94);
 
 }
-/* firma */
 
-.firma {
-    padding: 30px 600px ;
-    
-}
-.firma1 {
-    font-family: 'Dancing Script', cursive;
-    font-size: 0.90rem;
-    text-shadow: 0.1em 0.1em 0.2em tomato
-}
 
 /* responsive para tablet */
 
@@ -1006,24 +997,14 @@ button:hover {
     .redes1{
         margin-left: -5px;
         padding-left: 10px;
+        padding-bottom: 30px;
     }
     
     button {  
         margin-top: 10px;
     }
-    
-    
-    /* firma */
-    
-    .firma { 
         
-        padding: 30px 150px
-        
-    }
-    .firma1 {
-        font-size: 0.60rem;
-        
-    }
+   
     
     
     }
