@@ -8,33 +8,36 @@
 }
 
 body {
-    width: 100%;
-       
+    width: 100%; 
+
 }
+
 /* cabezal */
 
 header{   
-    width: 100%;     
+
+    width: 100%; 
     margin-right: 50px;
     position: fixed;
     background-color: white;
     
 }
 
-.contenerdor {
+.contenedor {
     margin: 0;
+    padding-bottom: 5px;
     display: flex;
     align-content: center;
-    align-items: center;
+    align-items: center;  
     
 }
   
-h1 {
-    width: 25%;
-    margin-left: 35px;
-    margin-top: 20px;
-    padding-left: 20px;
-    font-size: 40px;
+h1 { 
+
+    margin-left: 20px;
+    margin-top: 15px;
+    padding-left: 15px;
+    font-size: 2.441rem;
     font-family: 'Fugaz One', cursive;
     color: black;
     
@@ -42,9 +45,8 @@ h1 {
 
 nav{
     width: 50%;
-    height: 20%;
-    margin-top: 2%;
     padding-right: 40px;
+    padding-left: 40px;
     display: flex;    
     justify-content: center;
      
@@ -53,7 +55,7 @@ nav{
 .boton {
     width: auto;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 19px;
+    font-size: 1.20rem;
     color:black;
     display:inline;
     margin: auto;
@@ -61,9 +63,10 @@ nav{
 }
 
 .redes {
-    font-size: 30px;
+    font-size: 2rem;
     margin-left: 30px;
     margin-top: 20px;
+    padding-left: 10px;
     border: 0 solid black;
     color: black;
 }
@@ -76,7 +79,7 @@ main {
 .hero {
     
     padding-top: 150px;
-    height: 350px;
+    padding-bottom: 80px;
     background-color: #EEE8AA;   
     display: flex;
     justify-content: space-evenly;
@@ -84,24 +87,24 @@ main {
 }
 
 .presentacion {    
-    margin-top: 35px;   
+    margin-top: 20px;   
 }
 
 h2{
-    margin-top: 10;
-    font-size: 40px;
+    margin-top: 10px;
+    font-size: 2.40rem;
     font-family: 'Times New Roman', Times, serif
 }
 
 h3{
     margin-top: 40px;
-    font-size: 18px;
+    font-size: 1.10rem;
     font-family: Arial, Helvetica, sans-serif
 }
 
 p {
     margin-top: 5px;
-    font-size: 18px;
+    font-size: 1.05rem;
     font-family: 'Times New Roman', Times, serif
 
 }
@@ -112,7 +115,7 @@ p {
     border: 0 solid black;
     color: white;
     background-color: black;
-    font-size: 14px;
+    font-size: 0.95rem;
     transition: all 0.5s;
     cursor: pointer;
 }
@@ -126,7 +129,7 @@ p {
     border: none;
     color: black;
     background-color: #EEE8AA;
-    font-size: 16px;
+    font-size: 1rem;
     text-decoration-line: underline;
     transition: all 0.5s;
     cursor: pointer;
@@ -151,7 +154,7 @@ p {
 
 .seccion1 {
     padding-top: 30px;
-    height: 350px;    
+    padding-bottom: 30px;    
     margin-left: 110px;
     margin-right: 50px;
     padding-right: 50px;
@@ -163,7 +166,7 @@ p {
 .about {
     width: 100px;
     margin-left: 450px; 
-    font-size: 20px;
+    font-size: 1.20rem;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     background-color: #EEE8AA;
@@ -171,7 +174,7 @@ p {
 }
 .conocer {
     margin-left: 240px; 
-    font-size: 24px;
+    font-size: 1.50rem;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -179,7 +182,7 @@ p {
 .soy {
     margin-left: 75px; 
     margin-top: 30px;
-    font-size: 15px;
+    font-size: 0.90rem;
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -193,7 +196,7 @@ u {
     margin-top: 25px;
     margin-right: 95px;
     padding-right: 10px;
-    font-size: 15px;
+    font-size: 0.90rem;
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;  
     display: block;
@@ -210,7 +213,7 @@ u {
     margin-right: 120px;
     background-color: #EEE8AA;
     border-radius: 50%;   
-    font-size: 80px;
+    font-size: 5.40rem;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     
@@ -220,15 +223,14 @@ u {
    margin-right: 30px;
    margin-left: -30px;
    text-align: left;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+   font-size: 0.90rem;
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 /* datos*/
 
 .seccion2 {
-    height: 70px;
-     margin-left: 110px;
+    margin-left: 110px;
     margin-right: 50px;
         
 }
@@ -244,7 +246,7 @@ u {
 
 .datos1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 0.90rem;
 
 }
 
@@ -253,7 +255,7 @@ u {
 .seccion3 {
     margin-top: 50px;
     padding-top: 60px;
-    height: 400px;
+    padding-bottom: 60px;
     margin-left: 110px;
     margin-right: 50px;
     padding-right: 50px;
@@ -261,8 +263,8 @@ u {
 
 .ayuda {
     width: 100px;
-    margin-left: 520px;
-    font-size: 20px;
+    margin-left: 47%;
+    font-size: 1.20rem;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     background-color: #EEE8AA;
@@ -270,7 +272,7 @@ u {
 .siguenteproyecto {
     margin-top: 10px;
     margin-left: 25px; 
-    font-size: 24px;
+    font-size: 1.40rem;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 
@@ -278,11 +280,13 @@ u {
 
 .imgproyect1 {
     margin-top: 40px;
-    margin-left: 35px;
+    margin-left: 45px;
     margin-right: 20px;
     display: flex;
     justify-content: space-around;
     color: #EEE8AA;
+    
+    
 }
 .proyect1 {
     margin-top: 5px;
@@ -301,7 +305,7 @@ u {
 
 .imgproyect2 {
     margin-top: 40px;
-    margin-left: 35px;
+    margin-left: 45px;
     margin-right: 20px;
     display: flex;
     justify-content: space-around;
@@ -318,15 +322,15 @@ u {
 /* cuarta seccion */
 .seccion4 {
     padding-top: 30px;
-    height: 750px;
+    padding-bottom: 40px;
     margin-left: 110px;
     margin-right: 50px;
     padding-right: 70px;
 }
 .resume1 {
     width: 100px;
-    margin-left: 520px;
-    font-size: 20px;
+    margin-left: 48%;
+    font-size: 1.20rem;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     background-color: #EEE8AA
@@ -335,14 +339,16 @@ u {
 .resume2 {
     margin-top: 10px;
     margin-left: 45px; 
-    font-size: 24px;
+    font-size: 1.50rem;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 
 }
 .my_ex{
-    margin-left: 40px;
-    margin-right: 120px;
+    margin-left: 50px;
+    margin-right: 130px;
+    padding-left: 10px;
+    padding-right: 10px;
     display: flex;
     justify-content: space-around;
 }
@@ -350,8 +356,8 @@ u {
 .divicion {
     margin-top: 20px;
     margin-left: 80px;
-   text-align: justify;
-   font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: space-evenly;
     
@@ -364,7 +370,7 @@ u {
 
 .resumen3  { 
     padding-bottom: 6px;
-    font-size: 15px;
+    font-size: 0.95rem;
     border-bottom: 3px solid #6d5e5e;
 
 }
@@ -376,19 +382,20 @@ u {
 }
 .resumen4  {
     padding-bottom: 6px;
-    font-size: 15px;
+    font-size: 0.95rem;
     border-bottom: 3px solid #6d5e5e;
 }
 
 /* seccion barras */
+
 .habilidades {
-    margin-left: 190px;
+    margin-left: 230px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .barras {
     margin-top: 15px;
-    margin-left: -50px;
+    padding-right: 50px;
     display: flex;
     justify-content: space-around;
     
@@ -498,18 +505,17 @@ u {
 /* quinta seccion */
 
 .seccion5 {
-    padding-top: 30px;
-    width: 100%;
-    height: 850px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-color: #ffeded;
-   padding-right: 50px;
+    padding-right: 50px;
     
 }
 
 .porfolio2 {
     width: 90px;
     margin-left: 48%;
-    font-size: 20px;
+    font-size: 1.20rem;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     background-color: #EEE8AA;
@@ -517,7 +523,8 @@ u {
 .porfolio3 {
     margin-top: 10px;
     margin-left: 50px; 
-    font-size: 24px;
+    padding-bottom: 15px;
+    font-size: 1.50rem;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -525,21 +532,20 @@ u {
 .boton3 {
     width: 100%;
     display: flex;
-    align-content:space-between;
+    align-content:space-around;
 }
 
 .boton4 {
-    margin-left: 25%;
-    
+    margin-left: 28%;
+   
 }
 
 .boton7 {
     width: 100%;
-    height: 20%;
-   padding-top: 2%;
-   padding-left: 10px;
+    padding-top: 2%;
+    padding-left: 5px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 1.10rem;
     color: black;
     text-decoration: none;
     transition: all 0.5s;
@@ -551,14 +557,47 @@ u {
     text-decoration: underline;
 }
 
+
+.boton8 {
+    width: 130%;
+    padding-top: 2%;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.10rem;
+    color: black;
+    text-decoration: none;
+    transition: all 0.5s;
+    cursor: pointer;
+ 
+}
+
+.boton8:hover {
+    text-decoration: underline;
+}
+.boton9 {
+    width: 120%;
+    padding-top: 2%;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.10rem;
+    color: black;
+    text-decoration: none;
+    transition: all 0.5s;
+    cursor: pointer;
+ 
+}
+
+.boton9:hover {
+    text-decoration: underline;
+
+}    
 /* seccion imagenes */
 
 .trabajos1 {
     margin-top: 20px;
-    width: 920px;
-    height: 920px;
-    padding-top: 30px;
-    padding-left: 220px;
+    width: 80%;
+    padding-top: 40px;
+    padding-left: 18%;
    
  }
 
@@ -598,16 +637,16 @@ u {
 /* ultima seccion */
 
 .ultima {
-    width: 100%;
     padding-top: 30px;
-    height: auto;    
-   background-color: #EEE8AA;
+    background-color: #EEE8AA;
    
 }
 
 .contactos1 {
     margin-left: 100px;
     margin-right: 100px;
+    padding-left: 150px;
+    padding-right: 180px;
     display: flex;
     justify-content: space-evenly;
 
@@ -616,12 +655,15 @@ u {
 
 .contactos3 {
     font-family: Arial, Helvetica, sans-serif;
+    padding-right: 80px;
     margin-bottom: 30px;       
 
 }
 
 p {
+    font-size: 0.95rem;
     margin-bottom: 30px;
+    text-align: justify;
 }
 .liv{ 
     margin-bottom: 5px;
@@ -632,9 +674,9 @@ p {
 }
 
 .redes1{
-    font-size: 15px;
+    font-size: 0.95rem;
     margin-top: 20px;
-    margin-left: 10px;
+    padding-left: 10px;
     border: 0 solid black;
     color: black;
 }
@@ -643,18 +685,19 @@ p {
 form {
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    padding-left: 100px;
+    margin-left: 80px;
 
 }
 
 .formulario1 {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
 label {
-    font-size: 15px;
+    font-size: 0.95rem;
     padding: 10px 0;
     
 }
@@ -681,7 +724,7 @@ button {
     width: 80px;
     height: 20px;
     margin-top: 5px;
-    font-size: 11px;
+    font-size: 0.70rem;
     border: 0 solid black;
     color: white;
     background-color: black;
@@ -695,262 +738,293 @@ button:hover {
 /* firma */
 
 .firma {
-    padding: 20px 600px ;
+    padding: 30px 600px ;
+    
 }
 .firma1 {
     font-family: 'Dancing Script', cursive;
-    font-size: 14px;
+    font-size: 0.90rem;
     text-shadow: 0.1em 0.1em 0.2em tomato
 }
 
-@media all and (min-width:600px) and (max-width:1023px) {
-body  {
-        width: 765px;
-}
+/* responsive para tablet */
 
+@media (max-width: 1024px) {
+
+    
+    body {
+        width: 1024px; 
+    
+    }
+    
     /* cabezal */
     
-header{   
-        width: 765px;     
-        margin-right: 10px;
-}
+    header{   
     
-     
-h1 {
-    width: 20%;
-    margin-left: 10px;
-    margin-top: 20px;
-    font-size: 25px;
-   }
-
-.boton {
-    width: auto;
-    font-size: 12px;
-       
-}
-
-.redes {
-    font-size: 18px;
-}
-
-/* hero */
-
-.hero {    
-    padding-top: 120px;
-   
-}
-
-.porfolio {
-    margin-top: 5px;
-    
-}
-/* primera seccion */
-
-.seccion1 {
-    margin-left: 50px;
-}
-
-.about {
-    margin-left: 350px; 
-    font-size: 18px;
+        width: 100%; 
+        margin-right: 25px;
            
-}
-.conocer {
-    width: 200px;
-    margin-top: -10px;
-    margin-left: 300px;
-}
-
-.exp {
-    margin-top: 180px;
- 
-}
-
-
-/* datos*/
-
-.seccion2 {
-    height: 15px;
-    padding-top: 50px;
-    margin-left: 5px;
-    margin-right: 5px;
-   
-        
-}
-
-.datosbasicos {
-    margin-left: 50px;
-    margin-right: 50px;    
-}
-
-/* segunda seccion */
-
-.seccion3 {
-    margin-top: 30px;   
-    height: 400px;
-    margin-left: 0;
-    margin-right: 30px;
-    padding-right: 0px;
- }
-
-
-.ayuda {
-    margin-left: 350px;
-    font-size: 18px;
-}
-
-.siguenteproyecto {
-    margin-left: 40px;
-    font-size: 22px;
-
-}
-
-.proyect1, .proyect2 {
-    margin-left: 30px;
-}
-
-/* <!-- cuarta seccion --> */ 
-
-.seccion4 {
-    padding-top: 15px;
-    height: auto;
-    margin-left: 0;
-    margin-right: 0;
-    padding-right: 30px;
-}
-.resume1 {
-    margin-left: 45%;
-}    
+    }
     
-.my_ex{
-    margin-left: 5px;
-    margin-right: 90px;
-}
-
-.divicion {
-     margin-left: 60px;
+    .contenedor {
+        padding-bottom: 15px;
+        padding-top: 10px;
+    }  
+    h1 { 
+    
+        margin-left: 15px;
+        margin-top: 10px;
+        padding-left: 10px;
+        font-size: 2rem;
+    }
+    
+    nav{
+        width: 50%;
+        padding-right: 30px;
+        padding-left:50px;
+        
+    }
+    
+    .boton {
+        font-size: 1rem;
+        
+    }
+    
+    .redes {
+        font-size: 1.75rem;
+        
+    }
+    
+    
+    /* hero */
+    
+    
+    .hero {
+        
+        padding-top: 130px;
+    }
+    
+    
+    /* primera seccion */
+    
+    .seccion1 {    
+        padding-bottom: 20px;    
+        margin-left: 50px;
+        
+    }
+    
+    .about {
+        
+        margin-left: 70%; 
+           
+    }
+    .conocer {
+        margin-left: 290px;
+        margin-top: -15px;
+    }
+    
+    
+    .experiencia {
+        padding-top: 50px;
+        
+    }
+    
+    .años {
+       margin-left: -20px;
+       text-align: left;
+    }
+        
+    
+    /* datos*/
+    
+    .seccion2 {
+        margin-left: 70px;
+        margin-right: 60px;
+            
+    }
+    
+    
+    
+    /* segunda seccion */
+    
+    .seccion3 {
+        margin-top: 20px;
+        padding-top: 30px;    
+        margin-left: 20px;
+        margin-right: 80px;
+        padding-right: 60px;
+     }
+    
+    .ayuda {   
+        margin-left: 50%;
+    }
+    
+    .siguenteproyecto {
+        margin-top: 0px;
+        margin-left: 90px; 
+    
+    }
+    
+    .imgproyect1 {
+        padding-left: 20px;
+          
+    }
+    
+    .imgproyect2 {
+        padding-left: 20px;
+    }
+    
+    
+    /* cuarta seccion */
+    
+    .seccion4 {
+        padding-top: 20px;
+        margin-left: 20px;
+        margin-right: 30px;
+        padding-right: 50px;
+    }
+    
+    .resume1 {
+        margin-left: 47%;
+    
+    }
+    
+    .resume2 {
+        margin-top: 10px;
+        margin-left: 45px; 
+        font-size: 1.50rem;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    
+    }
+    .my_ex{
+        margin-left: 30px;
+        margin-right: 100px;
+    }
+    
+    .divicion {
+        margin-top: 30px;
+        margin-left: 80px;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    
+    .resumen3  { 
+        padding-bottom: 4px;
+    
+    }
+    
+    .resumen4  {
+        padding-bottom: 4px;
+    }
+    
+    /* seccion barras */
+    
+    .habilidades {
+        margin-left: 160px;
+    }
+    
+    .barras {
+        margin-top: 15px;
+        margin-left: -30px;
+        padding-right: 30px;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    
+    
+    /* quinta seccion */
+    
+    .seccion5 {
+        padding-right: 20px;
+        
+    }
+    
+    .porfolio2 {
+        margin-left: 47%;
+    }
+    
+    .porfolio3 {
+        margin-left: 30px; 
+    }
+    
+    
+    .boton4 {
+        margin-left: 20%;
        
-}
-
-/* seccion barras */
-
-.habilidades {
-    margin-left: 85px;
+    }
     
-}
-
-.barras {
-    margin-top: 15px;
-        
-}
-
-.barras1 {
-    margin-left: 120px;
-
-}
-
-
-.downcv {
-    margin-left: 45%;
-    margin-bottom: 20px;
-}
-
-/* quinta seccion */
-
-.seccion5 {
-    width: auto;
-    height: 650px;
-   padding-right: 0px;
-    
-}
-
-.porfolio2 {
-    margin-left: 45%;
-    
-}
-.porfolio3 {
-    margin-top: 10px;
-    
-}
-
-.boton4 {
-    padding-left: 40px;
-    
-    
-}
-
-.boton7 {
-    width: 300px;
-    padding-left: 0px;
-    font-size: 12px;
+    .boton7 {
+        font-size: 1.05rem;
      
-}
+    }
+    
+    .boton8 {
+        margin-left: 30px;
+        font-size: 1.05rem;
+    }
+    
+    .boton9 {
+        margin-left: 30px;
+        font-size: 1.05rem;
+    }
+    
+    /* seccion imagenes */
+    
+    .trabajos1 {
+        margin-top: 10px;
+        width: 100%;
+        padding-top: 30px;
+        padding-left: 5%;
+       
+    }
+    
+    /* ultima seccion */
+    
+    
+    
+    .ultima {
+        padding-top: 20px;
+    }
+    
+    .contactos1 {
+        margin-left: 100px;
+        margin-right: 30px;
+        padding-left: 50px;
+        padding-right: 90px;
+    }
+    
+    .contactos3 {
+        padding-right: 50px;
+    }
+    
+    
+    .redes1{
+        margin-left: -5px;
+        padding-left: 10px;
+    }
+    
+    button {  
+        margin-top: 10px;
+    }
+    
+    
+    /* firma */
+    
+    .firma { 
+        
+        padding: 30px 150px
+        
+    }
+    .firma1 {
+        font-size: 0.60rem;
+        
+    }
+    
+    
+    }
 
-/* seccion imagenes */
-
-.trabajos1 {
-    margin-top: 20px;
-    width: 620px;
-    height: 620px;    
-    padding-left: 90px;
-   
- }
-
-.img1 {
-    width: 200px;
-    height: 200px;
-    margin-bottom: 10px;
-    margin-right: 5px;
-}
-.img2 {
-    width: 200px;
-    height: 200px;
-    margin-bottom: 10px;
-}
-.img3 {
-    width: 200px;
-    height: 200px;
-    margin-bottom: 10px;
-    margin-left: 5px;
-}
-.img4 {
-    width: 200px;
-    height: 200px;
-    margin-right: 5px;
-}
-.img5 {
-    width: 200px;
-    height: 200px;
-}
-.img6 {
-    width: 200px;
-    height: 200px;
-    margin-left: 5px;
-}
-
-/* ultima seccion */
-
-.ultima {
-    width: auto;
-    padding-top: 15px;
-    height: auto;    
-}
-
-.contactos1 {
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-
-p {
-    font-size: 15px;
-
-}
-/* firma */
-
-.firma {
-    padding: 20px 280px ;
-}
-
-
-}
